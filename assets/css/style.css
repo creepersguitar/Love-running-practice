@@ -85,3 +85,14 @@ main {
 footer {
     background-color: orange;
 }
+/* supports different screen types */
+@media screen and (min-width: 768px) {
+    /* header */
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+}
