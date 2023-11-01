@@ -95,4 +95,14 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+    /* targets menu for screen types */
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
 }
