@@ -79,6 +79,7 @@ main {
     background-color: lightblue;
     /* makes main element take up enough space to force footer to bottom of website*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 /* footer */
 footer {
